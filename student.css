@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 140vh;
+    width: 100vw;
+}
+.entry{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 110h;
+    width: 65vw;
+    margin: 8vh 17vw;
+    border: 5px solid rgb(25, 3, 3);
+    border-radius: 10px;
+    background-color: rgb(237, 201, 94);
+}
+label{
+    font-size: 20px;
+    margin: 0.5vh;
+}
+select{
+    position: relative;
+    width: 20vw;
+    height: 4vh;
+    font-size: 15px;
+    margin: 0.5vh;
+}
+input{
+    position: relative;
+    margin: 0.5vh;
+    width: 30vw;
+    height: 4vh;
+    border-radius: 4px ;
+    border:2px solid transparent;
+}
+#company2{
+    height: 120vh;
+    width: 30vw;
+    padding-right: 2vw;
+}
+Button{
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 11vw;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.8vmin;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border: 3px solid rgb(1, 9, 44);
+    background-color: rgb(240, 252, 8);
+    font-weight: bold;
+}
+Button:hover{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(46, 255, 70);
+    color: rgb(11, 0, 85);
+}
+input:hover{
+    position: relative;
+    margin: 0.5vh;
+    width: 30vw;
+    height: 4vh;
+    border-radius: 4px ;
+    border:2px solid red ;
+}
+select{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/* select:hover{
+    background-color: black;
+    color: white;
+} */
+input.gender{
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+}
+
+h1{
+    margin: 5px;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    #company2{
+        height: 120vh;
+        width: 65vw;
+        padding-right: 2vw;
+    }
+    .entry{
+        display: inline;
+    }
+    img{
+        height: 250vh;
+    }
+    input{
+        width: 50vw;
+    }
+    Button{
+        margin-left: 25vw;
+        margin-bottom: 5px;
+    }
+    form{
+        margin: 10px;
+    }
+    input.gender{
+        display: inline;
+        text-align: center;
+    }
+    
+  }
+
+
